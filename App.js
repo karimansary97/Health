@@ -1,15 +1,6 @@
-import AppStopWatch from "./components/AppStopWatch";
-import Counter from "./components/Counter";
-import DetailsScreen from "./screens/DetailsScreen";
-import HomeScreen from "./screens/HomeScreen";
-import Distance from "./components/Distance";
 import AppNavigator from "./navigation/AppNavigator";
 import { NavigationContainer } from "@react-navigation/native";
 import navigationTheme from "./navigation/navigationTheme";
-import ListItem from "./components/ListItem";
-import HistoryScreen from "./screens/HistoryScreen";
-import TripNavigator from "./navigation/TripNavigator";
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import DataContext from "./hooks/context";
 import { useEffect, useState } from "react";
 
