@@ -6,8 +6,8 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/karim.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -17,7 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Ansary.health",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDTJbZ9-DOQNrPtSQoudwl7E0ceBeDa73o"
+      }
     },
     "android": {
       "adaptiveIcon": {
